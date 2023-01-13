@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>ASPEN MABATI</title>
+		<link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+	</head>
+<body> 
+	<section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/mainlogo.png"></a>
+            <div class="nav-links" id="navLinks">
+                 <i class="bi bi-x-lg"  id="menu-icons" onclick="hidemenu()"></i>
+                <ul> 
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="product.html">OUR PRODUCTS</a></li>
+                    <li><a href="us.html">OUR COMPANY</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+             <i class="bi bi-list" id="menu-icons"  onclick="showmenu()"></i>
+        </nav>
+        <h1></h1>
+	</section>
+  
+    <!--------- contact us ------->
+    
+
+    
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                   <!-- <i class="fa fa-home"></i> -->
+                   <i class="bi bi-house-fill" style="font-size: 2rem; color: rgb(8, 21, 44); padding: 5px;"></i>
+                    <span>
+                        <p>Visit Us At Our Offices</p>
+                        <h5>Lengetia Industrial Park, </h5>
+                        <p>Opp Viwandani Post Office, Likoni Rd.</p>
+                        <p>Industrial Area, Nairobi, Kenya</p>
+                    </span>
+                </div>
+                <div>
+                   <!-- <i class="fa fa-phone"></i> -->
+                   <i class="bi bi-telephone-fill" style="font-size: 2rem; color: rgb(8, 21, 44); padding: 5px;"></i>
+                    <span>
+                        <p>Call Us Today</p>
+                        <h5>+254 7333 346 941</h5>
+                        <p>Or Talk To Our Sales Department<br></p>
+                        <h5>+254 793 330 080<br>+254 798 660 980</h5>
+                        
+                    </span>
+                </div>
+                <div>
+                   <!-- <i class="fa fa-envelope"></i> -->
+                   <i class="bi bi-envelope-fill lg" style="font-size: 2rem; color: rgb(8, 21, 44); padding: 5px;"></i>
+                    <span>
+                        <h5>info@aspenmabati.co.ke</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                
+                <form action="form-handle.php" method="post">
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter email address" required>
+                <input type="text" name="subject" placeholder="Enter your subject" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">SEND MESSAGE</button>
+            </form>
+            </div>
+            
+            
+        </div>
+    </section>
+    <p></p>
+    
+
+     <!------ Footer ------->
+    
+     <!-- Bootstrap js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <section class="footer">
+        <h4></h4>
+        <p>Opening Hours <br>
+            Monday To saturday <br>
+            8:30 AM TO 5:00 PM
+        </p>
+        
+        <p>Made by  <i class="bi bi-heart"></i>Royalty_codes_kenya</p>
+    </section>
+
+   <!------ JavaScript for Toggle menu ------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showmenu(){
+        navLinks.style.right = "0";
+    }
+    function hidemenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+    </script>
+    
+</body>
+</html>

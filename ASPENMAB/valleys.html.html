@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>ASPEN MABATI</title>
+		<link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+	</head>
+<body> 
+	<section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/mainlogo.png"></a>
+            <div class="nav-links" id="navLinks">
+                 <i class="bi bi-x-lg"  id="menu-icons" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="product.html">OUR PRODUCTS</a></li>
+                    <li><a href="us.html">OUR COMPANY</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+             <i class="bi bi-list" id="menu-icons"  onclick="showmenu()"></i>
+        </nav>
+        <h1></h1>
+	</section>
+  
+    <!--------- TYPES ------->
+    
+     <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>VALLEYS</h1>
+                <p><b>Gauge</b> - 28/30 G </p><br>
+                <P><b>Finish type</b> - Matte/Glossy</P>
+                 <P><b>colours in matte</b> : Tile red, Charcoal grey, Maroon,<br>
+                    Sky blue, Jungle green</P>
+                <p>• The Standard measurement of the valley is 2M 
+                    and 345 mm wide.
+                    • Heavy duty.
+                    • The valley allow fast and simple installation
+                </p>
+            </div>
+            <div class="about-col">
+                <img src="images/valleys.jpg">
+                
+            </div>
+        </div>
+    </section>
+    
+     <section class="type">
+        <h1></h1>
+        <div class="row">
+            <div class="type-col">
+                <img src="images/valleys1.jpg">
+                <h3></h3>
+            </div>
+            <div class="type-col">
+                <img src="images/products/8valleys/v22.jpg">
+               <h3></h3>
+            </div>
+            <div class="type-col">
+                <img src="images/valleys2.jpg">
+            </div>
+        </div>
+    
+       <a href="product.html" class="hero-btn" red-btn>VIEW OTHER PRODUCTS</a>
+    </section>
+    
+     <!------ call to action ------->
+    
+    <section class="cta">
+        <h1> Have Any Question Or Need Any Business Consultation</h1>
+        <a href="contact.html" class="hero-btn" >CONTACT US</a>
+         
+    </section>
+      <!------ Footer ------->
+    
+   <section class="footer">
+        <h4>OPENING HOURS</h4>
+        <p>Opening Hours <br>
+            Monday To saturday <br>
+            8:30 AM TO 5:00 PM</p>
+       
+       <p>Made by  <i class="bi bi-heart"></i>Royalty_codes_kenya</p>
+    </section>
+    
+   <!------ JavaScript for Toggle menu ------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showmenu(){
+        navLinks.style.right = "0";
+    }
+    function hidemenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+    </script>
+    
+</body>
+</html>
